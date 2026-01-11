@@ -17,11 +17,8 @@ Copyright (c) 2022 Yonnel Bécognée
 
 [![Status: Active](https://img.shields.io/badge/status-active-009900.svg)]()
 
-## :fr: [Français](https://github.com/Yobeco/MAEL_Phonofouille) | :gb: English
+## :fr: Français | :gb: [English](https://github.com/Yobeco/MAEL_Phonofouille)
 
----
-
----
 
 ![](https://github.com/Yobeco/MAEL_Phonofouille/blob/main/readme_assets/Logo-MAEL-120.png)
 
@@ -44,8 +41,6 @@ Les **bases de données** <img src="https://cdn.simpleicons.org/sqlite/FFFF" wid
 
 ---
 
----
-
 ## B- Fonctionnalités :clipboard:
 
 - Choix de la base de données.  
@@ -63,8 +58,6 @@ Les **bases de données** <img src="https://cdn.simpleicons.org/sqlite/FFFF" wid
 
 ---
 
----
-
 ## C- Comment utiliser MAEL Phonofouille ? :blush:
 
 L'utilisation est très standard :
@@ -76,15 +69,11 @@ L'utilisation est très standard :
 
 ---
 
----
-
 ## D- Principe de fonctionnement :gear:
 
 *(Pour aider à la compréhension du code)*
 
 Les différents widgets de l'interface génèrent une [variable de type dictionnaire](/readme_assets/parsed_data_V6.pdf) qui contient les critères qui seront utilisés par **SQLite** <img src="https://cdn.simpleicons.org/sqlite/FFFF" width="24" height="24" style="vertical-align: middle;" /> pour lancer la recherche. :mag_right:
-
----
 
 ---
 
@@ -96,8 +85,6 @@ Les différents widgets de l'interface génèrent une [variable de type dictionn
 Il faudrait surtout porter **MAEL Phonofouille** en JavaScript <img src="https://cdn.simpleicons.org/javascript/FFFF" width="24" height="24" style="vertical-align: middle;" /> dans l'interface de la plateforme [**MAEL Phrases**](https://github.com/Yobeco/MAEL_Phrase).
 
 ### :+1: Proposez votre aide pour effectuer ce portage. :smile:
-
----
 
 ---
 

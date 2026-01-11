@@ -17,11 +17,7 @@ Copyright (c) 2022 Yonnel Bécognée
 
 [![Status: Active](https://img.shields.io/badge/status-active-009900.svg)]()
 
-## :fr: [Français](https://github.com/Yobeco/MAEL_Phonofouille) | :gb: English
-
----
-
----
+## :fr: [Français](https://github.com/Yobeco/MAEL_Phonofouille/blob/main/README.fr.md) | :gb: English
 
 ![](https://github.com/Yobeco/MAEL_Phonofouille/blob/main/readme_assets/Logo-MAEL-120.png)
 
@@ -44,8 +40,6 @@ The currently implemented **word databases** <img src="https://cdn.simpleicons.o
 
 ---
 
----
-
 ## B- Features :clipboard:
 
 - Database selection.  
@@ -63,8 +57,6 @@ The currently implemented **word databases** <img src="https://cdn.simpleicons.o
 
 ---
 
----
-
 ## C- How to use MAEL Phonofouille? :blush:
 
 Usage is very straightforward:
@@ -76,15 +68,11 @@ Usage is very straightforward:
 
 ---
 
----
-
 ## D- Operating principle :gear:
 
 *(To help understand the code)*
 
 The various interface widgets generate a [dictionary-type variable](/readme_assets/parsed_data_V6.pdf) containing the criteria that will be used by **SQLite** <img src="https://cdn.simpleicons.org/sqlite/FFFF" width="24" height="24" style="vertical-align: middle;" /> to perform the search. :mag_right:
-
----
 
 ---
 
@@ -96,8 +84,6 @@ The various interface widgets generate a [dictionary-type variable](/readme_asse
 Above all, **MAEL Phonofouille** should be ported to JavaScript <img src="https://cdn.simpleicons.org/javascript/FFFF" width="24" height="24" style="vertical-align: middle;" /> within the [**MAEL Phrases**](https://github.com/Yobeco/MAEL_Phrase) platform interface.
 
 ### :+1: Offer your help to carry out this port. :smile:
-
----
 
 ---
 
