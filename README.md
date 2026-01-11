@@ -1,8 +1,10 @@
-![MAEL](https://github.com/Yobeco/MAEL_Gen/blob/main/readme_assets/Logo-MAEL-120.png "Logo du projet MAEL")
+
+![MAEL](https://github.com/Yobeco/MAEL_Gen/blob/main/readme_assets/Logo-MAEL-120.png "MAEL project logo")
 
 # MAEL Phonofouille
 
-*Une application appartenant au [__projet MAEL__](https://github.com/Yobeco/MAEL_Project)*   
+*An application belonging to the [__MAEL project__](https://github.com/Yobeco/MAEL_Project)*
+
 Copyright (c) 2022 Yonnel Bécognée
 
 [![License: Libre Non Commerciale](https://img.shields.io/badge/license-GNU%20GENERAL%20PUBLIC%20LICENSE%20V3-white.svg)](./LICENSE)
@@ -19,102 +21,99 @@ Copyright (c) 2022 Yonnel Bécognée
 
 ---
 
-![](https://github.com/Yobeco/MAEL_Phonofouille/blob/main/readme_assets/Logo-MAEL-120.png)
+---
 
+![](https://github.com/Yobeco/MAEL_Phonofouille/blob/main/readme_assets/Logo-MAEL-120.png)
 
 ## A- Description :eye:
 
-:computer: **Application de bureau** multiplateforme (Linux, MacOS et Windows) qui permet aux enseignants de trouver des mots selon des critères pédagogiques très utiles comme :
+:computer: **Cross-platform desktop application** (Linux, macOS, and Windows) that allows teachers to find words according to highly useful pedagogical criteria such as:
 
-- La présence et la position d'un son dans le mot,
-- La présence et la position de lettres,
-- Le niveau de difficulté des mots,
-- Le thème,
-- La nature grammaticale du mot...
+- The presence and position of a sound within a word,  
+- The presence and position of letters,  
+- The level of word difficulty,  
+- The theme,  
+- The grammatical category of the word...
 
-Les **bases de données** <img src="https://cdn.simpleicons.org/sqlite/FFFF" width="24" height="24" style="vertical-align: middle;" /> de mots actuellement implémentées sont :
-- [MiniLex](https://github.com/Yobeco/MAEL_Phrases/blob/main/readme_assets/Minima%20_Lexical_C1fev25.pdf) élaborée par AMLA Nord
-- [Lexique 3.83](http://www.lexique.org/) <img src="https://cdn.simpleicons.org/creativecommons/FFFF" width="24" height="24" style="vertical-align: middle;" /> BY NC *(Très complète ! Et surtout : contient les __descriptions phoniques__)*
+The currently implemented **word databases** <img src="https://cdn.simpleicons.org/sqlite/FFFF" width="24" height="24" style="vertical-align: middle;" /> are:
 
-**Phonofouille** est déjà utilisé comme tel par des enseignants, mais son objectif réel est d'être implémenté en JavaScript <img src="https://cdn.simpleicons.org/javascript/FFFF" width="24" height="24" style="vertical-align: middle;" /> dans **MAEL Phrase** afin d'aider les enseignants à créer des activités sur mesure pour leurs élèves.
+- [MiniLex](https://github.com/Yobeco/MAEL_Phrases/blob/main/readme_assets/Minima%20_Lexical_C1fev25.pdf) developed by AMLA Nord  
+- [Lexique 3.83](http://www.lexique.org/) <img src="https://cdn.simpleicons.org/creativecommons/FFFF" width="24" height="24" style="vertical-align: middle;" /> BY NC *(Very comprehensive! And most importantly: includes __phonetic descriptions__)*
 
----
-
-## B- Fonctionnalités :clipboard:
-
-- Choix de la base de données.
-- Choix du niveau de difficulté.
-- Choix des sons qui doivent être présents, et leur position.
-- Choix des lettres qui doivent être présentes, et leur position.
-- Choix du nombre de syllabes.
-- choix du genre (si pertinent).
-- Choix du thème.
-- Bouton pour lancer la recherche.
-- Bouton pour copier toute la liste de mots.
-- Double clic sur un mot pour le copier.
-- Clic droit sur la liste pour la réorganiser ou supprimer une ligne
-- Menu de déplacement dans les pages de la liste.
+**Phonofouille** is already used as-is by teachers, but its real goal is to be implemented in JavaScript <img src="https://cdn.simpleicons.org/javascript/FFFF" width="24" height="24" style="vertical-align: middle;" /> within **MAEL Phrase** in order to help teachers create custom activities for their students.
 
 ---
 
-## C- Comment utiliser MAEL Gen ? :blush:
+---
 
-L'utilisation est très standard :
+## B- Features :clipboard:
 
-1. Choisir la base de données.
-1. Choisir les critères de sélection des mots (pas d'ordre en particulier).
-1. Lancer la recherche.
-1. Copier toute la liste ou seulement un mot.
+- Database selection.  
+- Difficulty level selection.  
+- Selection of sounds that must be present and their position.  
+- Selection of letters that must be present and their position.  
+- Selection of the number of syllables.  
+- Gender selection (if relevant).  
+- Theme selection.  
+- Button to start the search.  
+- Button to copy the entire word list.  
+- Double-click on a word to copy it.  
+- Right-click on the list to reorganize or delete a row.  
+- Navigation menu to browse list pages.
 
 ---
 
-## D- Principe de fonctionnement :gear:
+---
 
-*(Pour aider à la compréhension du code)*
+## C- How to use MAEL Phonofouille? :blush:
 
-Les différents widgets de l'interface génèrent une [variable de type dictionnaire](/readme_assets/parsed_data_V6.pdf) qui contient les critères qui seront utilisés par **SQlite** <img src="https://cdn.simpleicons.org/sqlite/FFFF" width="24" height="24" style="vertical-align: middle;" /> pour lancer la recherche. :mag_right:
+Usage is very straightforward:
+
+1. Choose the database.  
+1. Choose the word selection criteria (no specific order).  
+1. Launch the search.  
+1. Copy the entire list or a single word.
 
 ---
 
-## E- Fonctionnalités à développer :rocket:
+---
 
-- Ajout des images associées aux mots dans la base de données.
-- Ajout des vignettes correspondant dans l'interface du moteur de recherche de Phonofouille.
+## D- Operating principle :gear:
 
-Il faudrait surtout porter **MAEL Phonofouille** en JavaScript <img src="https://cdn.simpleicons.org/javascript/FFFF" width="24" height="24" style="vertical-align: middle;" /> dans l'interface de la plateforme [**MAEL Phrases**](https://github.com/Yobeco/MAEL_Phrase).
+*(To help understand the code)*
 
-### :+1: Proposez votre aide pour effectuer ce portage. :smile:
+The various interface widgets generate a [dictionary-type variable](/readme_assets/parsed_data_V6.pdf) containing the criteria that will be used by **SQLite** <img src="https://cdn.simpleicons.org/sqlite/FFFF" width="24" height="24" style="vertical-align: middle;" /> to perform the search. :mag_right:
 
 ---
 
-## F- Participez au projet MAEL :open_hands:
+---
 
-:sos: Pour **obtenir de l'aide** concernant l'utilisation de **MAEL Phonofouille** ou pour **paticiper au développement** :computer:, écrivez-moi ici :
+## E- Features to develop :rocket:
+
+- Addition of images associated with words in the database.  
+- Addition of corresponding thumbnails in the Phonofouille search engine interface.
+
+Above all, **MAEL Phonofouille** should be ported to JavaScript <img src="https://cdn.simpleicons.org/javascript/FFFF" width="24" height="24" style="vertical-align: middle;" /> within the [**MAEL Phrases**](https://github.com/Yobeco/MAEL_Phrase) platform interface.
+
+### :+1: Offer your help to carry out this port. :smile:
+
+---
+
+---
+
+## F- Participate in the MAEL project :open_hands:
+
+:ring_buoy: To **get help** using **MAEL Phonofouille** or to **participate in development** :computer:, write to me here:
 
 ### :mailbox_with_mail: ***[mael@lvh.edu.ni](mailto:mael@lvh.edu.ni)***
 
-### :star2: Contributeurs
+### :star2: Contributors
 
-Un grand merci à toutes les personnes qui vont contribuer à ce projet !
+Many thanks to everyone who will contribute to this project!
 
- | Avatar | Nom                | GitHub                          | Rôle                     |
- |--------|--------------------|---------------------------------|--------------------------|
- | ![Bécognée Yonnel](https://github.com/Yobeco.png?size=50) | Bécognée Yonnel | [@Yobeco](https://github.com/Yobeco) | Mainteneur |
- | ... | ... | ... | Développeur (euse) |
- | ... | ... | ... | Illustrateur (trice) |
- | ... | ... | ... | Traducteur (trice) |
-
----
-
-## G- Installation :arrow_heading_down:
-
-Pour essayer **MAEL Gen**, exécutez le script :
-
-    git clone https://github.com/Yobeco/MAEL_Phonofouille.git
-    cd MAEL_Phonofouille
-    python3 -m venv venv_phono
-    source venv_phono/bin/activate
-    pip install -r requirements.txt
-    python3 main.py
-
-
+| Avatar | Name | GitHub | Role |
+|--------|-----|--------|------|
+| [<img src="https://github.com/YoBeco.png" width="50" style="border-radius: 50%;">](https://github.com/YoBeco) | Bécognée Yonnel | [@Yobeco](https://github.com/Yobeco) | Maintainer |
+| [<img src="https://github.com/Nail-yk.png" width="50" style="border-radius: 50%;">](https://github.com/Nail-yk) | Padawan | [@Nail-yk](https://github.com/Nail-yk) | Documentation translation |
+| ... | ... | ... | Developper |
+| ... | ... | ... | Illustrator |
