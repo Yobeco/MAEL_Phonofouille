@@ -105,3 +105,16 @@ Sobre todo, **MAEL Phonofouille** debería ser adaptado a JavaScript <img src="h
 | [<img src="https://github.com/Nail-yk.png" width="50" style="border-radius: 50%;">](https://github.com/Nail-yk) | Padawan         | [@Nail-yk](https://github.com/Nail-yk) | Traducción de la documentación |
 | ...                                                          | ...             | ...                                    | Desarrollador/a                |
 | ...                                                          | ...             | ...                                    | Ilustrador/a                   |
+
+## G- Instalación :arrow_heading_down:
+
+Para probar **MAEL Gen**, ejecute el script:
+
+```bash
+git clone https://github.com/Yobeco/MAEL_Phonofouille.git
+cd MAEL_Phonofouille
+python3 -m venv venv_phono
+source venv_phono/bin/activate
+pip install -r requirements.txt
+python3 main.py
+```

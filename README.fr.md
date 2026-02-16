@@ -104,3 +104,18 @@ Un grand merci à toutes les personnes qui vont contribuer à ce projet !
 | [<img src="https://github.com/Nail-yk.png" width="50" style="border-radius: 50%;">](https://github.com/Nail-yk) | Padawan | [@Nail-yk](https://github.com/Nail-yk) | Traduction de la documentation |
 | ... | ... | ... | Développeur (euse) |
 | ... | ... | ... | Illustrateur (trice) |
+
+---
+
+## G- Installation :arrow_heading_down:
+
+Pour essayer **MAEL Gen**, exécutez le script :
+
+```bash
+git clone https://github.com/Yobeco/MAEL_Phonofouille.git
+cd MAEL_Phonofouille
+python3 -m venv venv_phono
+source venv_phono/bin/activate
+pip install -r requirements.txt
+python3 main.py
+```
