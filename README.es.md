@@ -92,3 +92,16 @@ Sobre todo, **MAEL Phonofouille** debería ser adaptado a JavaScript <img src="h
 ## F- Participa en el proyecto MAEL :open_hands:
 
 :ring_buoy: Para **obtener ayuda** sobre el uso de **MAEL Phonofouille** o para **participar en el desarrollo** :computer:, escríbeme aquí:
+
+### :mailbox_with_mail: ***[mael@lvh.edu.ni](mailto:mael@lvh.edu.ni)***
+
+### :star2: Contribuidores
+
+¡Muchas gracias a todas las personas que van a contribuir a este proyecto!
+
+| Avatar                                                       | Nombre          | GitHub                                 | Papel                          |
+| ------------------------------------------------------------ | --------------- | -------------------------------------- | ------------------------------ |
+| [<img src="https://github.com/YoBeco.png" width="50" style="border-radius: 50%;">](https://github.com/YoBeco) | Bécognée Yonnel | [@Yobeco](https://github.com/Yobeco)   | Mantenedor                     |
+| [<img src="https://github.com/Nail-yk.png" width="50" style="border-radius: 50%;">](https://github.com/Nail-yk) | Padawan         | [@Nail-yk](https://github.com/Nail-yk) | Traducción de la documentación |
+| ...                                                          | ...             | ...                                    | Desarrollador/a                |
+| ...                                                          | ...             | ...                                    | Ilustrador/a                   |
