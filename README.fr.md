@@ -19,6 +19,8 @@ Copyright (c) 2022 Yonnel Bécognée
 
 ## :fr: Français | :es: [Español](https://github.com/Yobeco/MAEL_Phonofouille/blob/main/README.es.md)  |  :gb: [English](https://github.com/Yobeco/MAEL_Phonofouille/blob/main/README.md)
 
+---
+
 
 ![](https://github.com/Yobeco/MAEL_Phonofouille/blob/main/readme_assets/Logo-MAEL-120.png)
 
