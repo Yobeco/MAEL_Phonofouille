@@ -17,9 +17,7 @@ Copyright (c) 2022 Yonnel Bécognée
 
 [![Estado: Activo](https://img.shields.io/badge/status-active-009900.svg)]()
 
-## :fr: [Français](https://github.com/Yobeco/MAEL_Phonofouille/blob/main/README.fr.md) | :es: [Español](https://github.com/Yobeco/MAEL_Phonofouille/blob/main/README.es.md)  |  :gb: [English](https://github.com/Yobeco/MAEL_Phonofouille/blob/main/README.md)
-
----
+## :fr: [Français](https://github.com/Yobeco/MAEL_Phonofouille/blob/main/README.fr.md) | :es: Español  |  :gb: [English](https://github.com/Yobeco/MAEL_Phonofouille/blob/main/README.md)
 
 ---
 
@@ -44,8 +42,6 @@ Las **bases de datos** de palabras <img src="https://cdn.simpleicons.org/sqlite/
 
 ---
 
----
-
 ## B- Funcionalidades :clipboard:
 
 - Selección de la base de datos.  
@@ -63,8 +59,6 @@ Las **bases de datos** de palabras <img src="https://cdn.simpleicons.org/sqlite/
 
 ---
 
----
-
 ## C- ¿Cómo usar MAEL Phonofouille? :blush:
 
 El uso es muy sencillo:
@@ -76,15 +70,11 @@ El uso es muy sencillo:
 
 ---
 
----
-
 ## D- Principio de funcionamiento :gear:
 
 *(Para ayudar a comprender el código)*
 
 Los distintos widgets de la interfaz generan una [variable de tipo diccionario](/readme_assets/parsed_data_V6.pdf) que contiene los criterios que serán utilizados por **SQLite** <img src="https://cdn.simpleicons.org/sqlite/FFFF" width="24" height="24" style="vertical-align: middle;" /> para realizar la búsqueda. :mag_right:
-
----
 
 ---
 
@@ -96,8 +86,6 @@ Los distintos widgets de la interfaz generan una [variable de tipo diccionario](
 Sobre todo, **MAEL Phonofouille** debería ser adaptado a JavaScript <img src="https://cdn.simpleicons.org/javascript/FFFF" width="24" height="24" style="vertical-align: middle;" /> dentro de la interfaz de la plataforma [**MAEL Phrases**](https://github.com/Yobeco/MAEL_Phrase).
 
 ### :+1: Ofrece tu ayuda para llevar a cabo esta adaptación. :smile:
-
----
 
 ---
 
